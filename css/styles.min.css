@@ -893,7 +893,7 @@ header .member-actions {
 	color: #ffffff
 }
 
-#pointer-events-auto-canvas {
+#map-canvas {
 	height: 500px;
 	width: 100%
 }
@@ -992,23 +992,19 @@ header .member-actions {
 }
 
 .rsvp .rsvp-form .form-input-group input::-webkit-input-placeholder {
-	color:  #BCC1C3
-	color: black;
+	color: #BCC1C3
 }
 
 .rsvp .rsvp-form .form-input-group input:-moz-placeholder {
 	color: #BCC1C3
-	color: black;
 }
 
 .rsvp .rsvp-form .form-input-group input::-moz-placeholder {
 	color: #BCC1C3
-	color: black;
 }
 
 .rsvp .rsvp-form .form-input-group input:-ms-input-placeholder {
 	color: #BCC1C3
-	color: black;
 }
 
 footer .content {
@@ -1053,17 +1049,4 @@ body.modal-open {
 
 .modal-body {
 	padding: 25px
-}
-
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
