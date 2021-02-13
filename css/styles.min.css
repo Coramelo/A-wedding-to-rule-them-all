@@ -147,13 +147,22 @@ body {
 	outline: none !important
 }
 
-ul, ol {
+ul.lista, ol.lista {
 	margin: 0;
 	padding: 0
 }
 
-ul li {
+ul li.lista {
 	list-style: none
+}
+
+ul.regalos {
+	display: inline-block; 
+	text-align: left; 
+}
+
+ul li.regalos {
+	list-style: circle;
 }
 
 section .header {
